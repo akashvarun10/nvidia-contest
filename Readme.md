@@ -1,6 +1,16 @@
 # Enhanced Resume Processor and Cover Letter Generator
 
 This project is an enhanced tool designed to process resumes, extract key information, and generate personalized cover letters based on job descriptions. The application leverages powerful AI models from NVIDIA and integrates with Milvus for efficient vector storage, enabling intelligent document processing and personalized resume analysis.
+Here are the shield images in markdown format for each technology:
+
+
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FF4785?style=for-the-badge&logo=llama&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Milvus](https://img.shields.io/badge/Milvus-00A4FF?style=for-the-badge&logo=database&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Unstructured](https://img.shields.io/badge/Unstructured-000000?style=for-the-badge&logo=data&logoColor=white)
+
+#### Video Link : [https://drive.google.com/drive/u/0/folders/1pVkceGSH1HdIWBSGZN5zjRkvHQYBjmZO](https://drive.google.com/drive/folders/1pVkceGSH1HdIWBSGZN5zjRkvHQYBjmZO?usp=drive_link)
 
 ## Features
 - **Resume Processing**: Upload a resume (PDF or DOCX format) and automatically extract key information such as:
@@ -19,6 +29,10 @@ This project is an enhanced tool designed to process resumes, extract key inform
 - **Streamlit**: For building the interactive user interface.
 - **Unstructured**: For document partitioning and text extraction.
 - **FPDF**: For generating PDF documents.
+
+# Architecture Diagram
+![Flowchart](assets/architecture.jpeg)
+
 
 ## Setup and Installation
 
@@ -64,6 +78,7 @@ The tool extracts relevant sections from the resume, including:
 - **Projects**: Information about notable projects and technologies used.
 - **Certifications**: Any relevant certifications.
 
+
 ### Cover Letter Generation
 The generated cover letter is based on the extracted resume data and the job description provided. It follows a structured format:
 1. **Introduction**: A brief introduction and interest in the role.
@@ -75,6 +90,11 @@ The generated cover letter is based on the extracted resume data and the job des
 
 ### PDF Export
 Once the cover letter is generated, you can download it as a PDF file for easy sharing or printing.
+
+
+# Flowchart 
+
+![Flowchart](assets/Flowchart.jpeg)
 
 ## Example Use Case
 
