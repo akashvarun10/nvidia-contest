@@ -50,7 +50,7 @@ pip install -r requirements.txt
 To launch the app, run:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 This will start the Streamlit server and open the application in your web browser.
